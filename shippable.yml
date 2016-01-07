@@ -8,10 +8,10 @@ services:
 
 env:
   global:
-    - APP_NAME=thawing-journey-6674
+    - APP_NAME=python-mongo-heroku123 #thawing-journey-6674
     - MONGOLAB_URI=mongodb://localhost/test
-    - secure: MRuHkLbL9HPkJPU5lzkKM1+NOq1S5RrhxEyhJkk60xxYiF7DMzydiBN8oFBjWrSmyGeGRuEC22a0I5ItobdWVszfcJCaXHwtfKzfGOUdKuyCnDgvojXhv/jrBvULyLK6zsLw3b8NMxdnwNsHqSPm19qW/EIGEl9Zv/637Igos69z9aT7+xrEG013+6HtKYb8RHm+iPSNsFoBi/RSAHYuM1eLTZWG2WAkjgzZaYmrHCgNwVmk+HOGR+TOWN7Iu5lrjyvC1XDCQrOvo1hZI30cd9OqJ5aadFm3exQpNhI4I7AgOnCbK3NoWNc/GAnqKXCvsaIQ80Jd/uLIOVyMjD6Xmg==
-
+    - secure: AXjSGxl1GaOxTAtUjjNW7gpXV1g1CV8kacZG0yNORbOw622/FEhc/5Y01vdzd2SiuORZ9L2yjZMAiXEbk+7/RX8uLa1t9CwqyDKJgZVTMt4yR4M+cnp8ON9HWaRbuaz8JyEifV8YCQ4fhtdL8E9dVKSnYF/xk35satSg7sxWDOAPzSER/yYvkvnSychZ8+q3VdLTwnHGAG6HUiKhqPhj2t+w2SDkinG70dndo56nWajRlDQ7gBvxXrvmjtaENXlVk/1nF0MHK4BTANmfA4O81Z5g/YdjaYzjpqnx3ULizPHzMuRF1+A4piAO+VZK7lvZDaiiEY7/bdzFz9d4hbAJ5A==
+    
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 
